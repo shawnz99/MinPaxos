@@ -1,8 +1,8 @@
 package minpaxosproto
 
 import (
-	"genericsmr"
-	"state"
+	"github.com/arobertlin/MinPaxos/src/genericsmr"
+	"github.com/arobertlin/MinPaxos/src/state"
 )
 
 type InstanceStatus int32

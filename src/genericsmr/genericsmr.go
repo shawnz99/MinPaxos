@@ -3,15 +3,15 @@ package genericsmr
 import (
 	"bufio"
 	"encoding/binary"
-	"fastrpc"
+	"github.com/arobertlin/MinPaxos/src/fastrpc"
 	"fmt"
-	"genericsmrproto"
+	"github.com/arobertlin/MinPaxos/src/genericsmrproto"
 	"io"
 	"log"
 	"net"
 	"os"
-	"rdtsc"
-	"state"
+	"github.com/arobertlin/MinPaxos/src/rdtsc"
+	"github.com/arobertlin/MinPaxos/src/state"
 	"time"
 )
 

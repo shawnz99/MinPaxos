@@ -2,17 +2,17 @@ package main
 
 import (
 	"bufio"
-	"dlog"
+	"github.com/arobertlin/MinPaxos/src/dlog"
 	"flag"
 	"fmt"
-	"genericsmrproto"
+	"github.com/arobertlin/MinPaxos/src/genericsmrproto"
 	"log"
-	"masterproto"
+	"github.com/arobertlin/MinPaxos/src/masterproto"
 	"math/rand"
 	"net"
 	"net/rpc"
 	"runtime"
-	"state"
+	"github.com/arobertlin/MinPaxos/src/state"
 	"time"
 )
 

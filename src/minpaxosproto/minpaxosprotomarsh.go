@@ -3,9 +3,9 @@ package minpaxosproto
 import (
 	"bufio"
 	"encoding/binary"
-	"fastrpc"
+	"github.com/arobertlin/MinPaxos/src/fastrpc"
 	"io"
-	"state"
+	"github.com/arobertlin/MinPaxos/src/state"
 	"sync"
 )
 

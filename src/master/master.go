@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"genericsmrproto"
+	"github.com/arobertlin/MinPaxos/src/genericsmrproto"
 	"log"
-	"masterproto"
+	"github.com/arobertlin/MinPaxos/src/masterproto"
 	"net"
 	"net/http"
 	"net/rpc"

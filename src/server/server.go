@@ -1,11 +1,11 @@
 package main
 
 import (
-	"bareminpaxos"
+	"github.com/arobertlin/MinPaxos/src/bareminpaxos"
 	"flag"
 	"fmt"
 	"log"
-	"masterproto"
+	"github.com/arobertlin/MinPaxos/src/masterproto"
 	"net"
 	"net/http"
 	"net/rpc"

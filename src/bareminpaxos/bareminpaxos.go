@@ -1,17 +1,17 @@
 package bareminpaxos
 
 import (
-	"dlog"
+	"github.com/arobertlin/MinPaxos/src/dlog"
 	"encoding/binary"
-	"fastrpc"
+	"github.com/arobertlin/MinPaxos/src/fastrpc"
 	"fmt"
-	"genericsmr"
-	"genericsmrproto"
+	"github.com/arobertlin/MinPaxos/src/genericsmr"
+	"github.com/arobertlin/MinPaxos/src/genericsmrproto"
 	"io"
 	"math"
-	"minpaxosproto"
+	"github.com/arobertlin/MinPaxos/src/minpaxosproto"
 	"net"
-	"state"
+	"github.com/arobertlin/MinPaxos/src/state"
 	"time"
 )
 
